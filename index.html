@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body>
+    <div id="maincontainer"> 
+      <div id="headercontainer" class="headercontainer">
+        <h1>Grade Calculator</h1>
+      </div>
+      <div id="tablecontainer" class="tablecontainer">
+        <div class="toprowcontainer">
+          <p>Grade (%)</p>
+          <p>Weight (%)</p>
+        </div>
+        <div id="row" class="rowcontainer">
+          <input id="gradeinput" class="gradeinput" type="number">
+          <input id="weightinput" class="weightinput" type="number">
+        </div>
+      </div>
+      <div class="buttoncontainer">
+        <button id="calculatebutton" class="calculatebutton">Calculate</button>
+        <button id="addrowbutton" class="addrowbutton">Add Row</button>
+        <button id="clearbutton" class="clearbutton">Delete Row</button>
+      </div>
+      <div class="gradecontainer">
+        <p id="gradetext">Grade: </p>
+      </div>
+      <div class="darkmodebuttoncontainer">
+        <button id="colorbutton">Dark Mode</button>
+        <a href="finalgrade.html"><button id="finalbutton">Final Grade Calculator</button></a>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
