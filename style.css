@@ -1,0 +1,42 @@
+#maincontainer {
+  display: grid;
+  align-items: center;
+  max-height: 50vh;
+  row-gap: 12px;
+  width: 318px;
+}
+
+.tablecontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 4px;
+}
+
+.toprowcontainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  column-gap: 24px;
+}
+
+.rowcontainer {
+  display: flex;
+  column-gap: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.gradeinput, .weightinput {
+  width: 75px;
+}
+
+.buttoncontainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+}
+
+.gradecontainer {
+  display: flex;
+  justify-content: center;
+}

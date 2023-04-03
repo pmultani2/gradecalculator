@@ -1,0 +1,29 @@
+body {
+  font-family: Arial;
+  margin:0;
+}
+
+.headercontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.calculatebutton, .addrowbutton, .clearbutton, #colorbutton, #finalbutton {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: opacity 0.3s;
+  cursor: pointer;
+}
+.calculatebutton:hover, .addrowbutton:hover, .clearbutton:hover, #colorbutton:hover, #finalbutton:hover {
+  opacity: 0.8;
+}
+
+.darkmodebuttoncontainer {
+  display: flex;
+  justify-content: center;
+  column-gap: 12px;
+}
